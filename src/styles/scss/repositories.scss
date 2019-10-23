@@ -1,0 +1,138 @@
+.cards-section-area {
+
+  .repo-cards-container {
+    border: 0.5px solid #cecece;
+    width: 320px;
+    margin: .5em;
+    margin-top: 2em;
+  }
+}
+
+.single-card-body-repos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 420px;
+
+  .used-repos {
+    font-size: 14px;
+  }
+
+  .repo-names {
+    padding-top: 16px;
+    overflow: auto;
+
+    .repo-description {
+      font-size: 1.5em;
+      color: #535353;
+    }
+
+    .description {
+      font-size: .8em;
+      font-weight: lighter;
+      font-style: italic;
+      color: #707070;
+      padding: 16px
+    }
+  }
+
+  .details-section-area {
+    margin: 0 0 1em 0;
+
+    .default-branch {
+      font-size: 1em;
+      font-weight: 400;
+      color: #535353;
+    }
+
+    .branch-details {
+      font-size: .8em;
+      font-weight: lighter;
+      color: #707070;
+
+    }
+
+
+  }
+
+  .languages {
+    overflow: hidden;
+    height: 70px;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      font-size: .8em;
+
+      li {
+        font-weight: lighter;
+        color: #707070;
+        margin: 0 0.3em 0 .2em;
+        list-style-type: none;
+
+        i {
+          font-size: 13px;
+          padding: 0 .3em 0 0;
+          color: dodgerblue;
+        }
+      }
+    }
+  }
+
+}
+
+.cards-footer {
+  border-top: 1px solid #1F354C;
+  padding: 0.5em 0 0 0;
+  width: inherit;
+  height: 70px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: white;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: .6em .6em;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      .icon-section {
+        display: flex;
+
+        i.repo-icon {
+          font-size: 31px;
+          display: block;
+          color: #b89d9d;
+        }
+
+        .repo {
+          display: flex;
+          flex-direction: column;
+
+          .repositories {
+            padding: 0 0 0 .5em;
+            font-size: 10px;
+            color: #b89d9d;
+            text-align: left;
+          }
+
+          .total-time {
+            font-size: 8px;
+            color: #686868;
+          }
+
+        }
+
+      }
+    }
+  }
+}

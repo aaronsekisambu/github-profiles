@@ -1,0 +1,192 @@
+.user-details-header {
+  ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: .8em;
+
+    li {
+      font-weight: lighter;
+      color: #707070;
+      list-style-type: none;
+      margin-left: 2em;
+
+      .header-user-name {
+        margin: 1em 1em 0 10em;
+        font-size: 15px;
+      }
+
+      .public-header-info {
+        margin: 1em 1em 0 2em;
+        font-size: 15px;
+      }
+
+      .public-header-info {
+        margin: 1em 1em 0 0;
+        font-size: 15px;
+      }
+
+      .public-title-count {
+        border-radius: 3px;
+        padding: .2em .3em;
+        font-size: 12px;
+        background-color: #868686;
+        color: white;
+      }
+
+      .public-title-name {
+        margin-right: .3em;
+      }
+
+      .click-repo {
+        cursor: pointer;
+      }
+
+      .click-repo:hover {
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+.single-selected-user-card {
+  display: flex;
+  justify-content: center;
+
+  .welcome-card {
+    margin: 5em auto;
+
+    .Welcome-image {
+      border-radius: 15px;
+      width: 550px;
+    }
+
+    .welcome-text {
+      padding: 1em 0 0 0;
+      width: 550px;
+      font-size: 22px
+    }
+
+    .view-repos {
+      color: white;
+    }
+
+    .view-repos:hover {
+      text-decoration: none;
+    }
+
+    .welcome-text span {
+      font-weight: bolder;
+    }
+
+    .view-repositories {
+      width: -webkit-fill-available;
+    }
+  }
+}
+
+
+
+.single-card-body {
+  .languages {
+    overflow: hidden;
+    height: 70px;
+
+    .used {
+      font-size: 1em;
+      font-weight: 400;
+      color: #535353;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      font-size: .8em;
+
+      li {
+        font-weight: lighter;
+        color: #707070;
+        margin: 0 0.3em 0 .2em;
+        list-style-type: none;
+
+        i {
+          font-size: 13px;
+          padding: 0 .3em 0 0;
+          color: dodgerblue;
+        }
+      }
+    }
+  }
+}
+
+.user-avatar {
+  display: flex;
+}
+
+.user-avatar img {
+  margin: 0 0 .5em 0;
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid #0685b8;
+  border-bottom: 1px solid #0685b8;
+  border-radius: 100px;
+  padding: 4px;
+}
+
+.page-not-found{
+  background-color: dodgerblue;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2em;
+  font-size: 35px;
+  margin: 12em auto;
+}
+
+
+@media all and (max-width: 1024px) {
+  .user-details-header ul li .header-user-name {
+    margin: 1em 1em 0 5em;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+  }
+
+  .user-details-header ul li {
+    font-weight: lighter;
+    color: #707070;
+    list-style-type: none;
+    margin-left: 2em;
+
+    .header-user-name {
+      margin: 1em 1em 0 2em;
+    }
+  }
+
+  .user-avatar {
+    margin-top: 1em;
+  }
+}
+
+@media all and (max-width: 425px) and (min-width: 320px) {
+  .single-selected-user-card {
+
+    .welcome-card {
+      .Welcome-image {
+        width: 250px;
+      }
+
+      .welcome-text {
+        width: 240px;
+        font-size: 17px;
+      }
+
+    }
+  }
+}

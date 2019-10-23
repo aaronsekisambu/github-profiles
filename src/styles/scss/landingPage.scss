@@ -1,0 +1,99 @@
+.navigation {
+  border-bottom: 1px solid #484949;
+}
+
+.nav-logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.cards-section-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .cards-container {
+    border: 0.5px solid #cecece;
+    width: 220px;
+    height: 300px;
+    margin: 3em;
+  }
+}
+
+.single-card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  .names {
+    padding-top: 10px;
+    height: 85px;
+    overflow: auto;
+
+    .real-name {
+      font-size: 1.5em;
+      color: #535353;
+    }
+
+    .username {
+      font-size: 1em;
+      font-weight: lighter;
+      font-style: italic;
+      color: #707070;
+    }
+  }
+
+  .languages {
+    overflow: hidden;
+    height: 70px;
+
+    .used {
+      font-size: 1em;
+      font-weight: 400;
+      color: #535353;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      font-size: .8em;
+
+      li {
+        font-weight: lighter;
+        color: #707070;
+        margin: 0 0.3em 0 .2em;
+        list-style-type: none;
+
+        i {
+          font-size: 13px;
+          padding: 0 .3em 0 0;
+          color: dodgerblue;
+        }
+      }
+    }
+  }
+
+  .more-details {
+    button {
+      color: #b89d9d;
+      border-color: #b89d9d;
+    }
+
+    button:hover {
+      color: white;
+      background: #b89d9d;
+    }
+  }
+}
+
+.github-avatar img {
+  margin-top: 2em;
+  width: 100px;
+  height: 100px;
+  border-top: 1px solid #0685b8;
+  border-bottom: 1px solid #0685b8;
+  border-radius: 100px;
+  padding: 4px;
+}
