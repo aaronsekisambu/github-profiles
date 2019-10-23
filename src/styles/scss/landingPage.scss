@@ -2,8 +2,30 @@
   border-bottom: 1px solid #484949;
 }
 
+mark {
+  margin: 0;
+  padding: 0;
+  background: #015b97;
+  color: white;
+}
+
+.result-not-found {
+  font-size: 28px;
+  color: #656666;
+  margin: 4em auto;
+  border-radius: 3px;
+  padding: 3em;
+  -webkit-box-shadow: 0 5px 5px #777;
+  -moz-box-shadow: 0 5px 5px #777;
+  box-shadow: 0 5px 5px #777;
+  h4 {
+    color: #004985;
+    font-weight: lighter;
+  }
+}
+
 .nav-logo img {
-  width: 35px;
+  width: 25px;
   height: 35px;
 }
 
